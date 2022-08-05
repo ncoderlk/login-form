@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Sign In</title>
+  </head>
+  <body class="dark:bg-darkBg bg-lightBg">
+    <div class="h-w-520 absolute -translate-x-1/2 left-1/2 top-12">
+      <div class="fixed rounded-full w-200-circle effect1 -z-30"></div>
+      <div class="fixed rounded-full w-200-circle effect2 -z-30"></div>
+
+
+      <!--Effects Ended-->
+      <!--Form Container-->
+      <form class="p-10 relative h-w-400 dark:bg-formDark bg-formLight rounded-3xl blurForm z-50">
+        <header class="mx-auto text-center pb-8">
+          <h1 class="text-4xl dark:text-lightText text-darkText underline">Login</h1>
+        </header>
+        <!-- <img src="./img/draw2.svg" class="w-1/2 h-1/2"> -->
+        <label for="username" class="dark:text-lightText text-darkText font-bold mt-10">
+          Username
+        </label>
+        <input type="text" placeholder="Enter the username or email" class="w-full h-12 rounded-xl bg-darkInputBox pl-5 mt-2 mb-10" required>
+
+
+        <label for="password" class="font-bold dark:text-lightText text-darkText mt-12 relative">
+
+          Password
+        </label>
+
+        <input type="password" placeholder="Enter the password here" class="w-full h-12 rounded-xl bg-darkInputBox pl-5 mt-2" required>
+        <button type="submit" class="w-40 h-9 border-2 rounded-xl border-lightBg mx-auto justify-center items-center relative flex mt-10 dark:hover:border-darkBg dark:hover:text-lightText hover:border-darkBg  hover:text-opacity-50">Submit</button>
+
+
+        <!------------------>
+        <div class="w-full max-h-full h-auto mx-auto text-center  pt-8">
+          <a href="" class="text-3xl p-2 dark:text-lightText text-darkText dark:hover:text-redIco hover:text-redIco">
+
+
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-3xl p-2 dark:text-lightText text-darkText dark:hover:text-bluIco hover:text-bluIco">
+
+
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="" class="text-3xl p-2 dark:text-lightText text-darkText hover:text-purIco dark:hover:text-purIco">
+
+
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <a href="" class="w-full max-h-full flex dark:text-lightText text-darkText relative pt-4 justify-center items-center dark:hover:underline hover:underline dark:hover:text-opacity-50 hover:text-opacity-50">Sign Up...</a>
+
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
